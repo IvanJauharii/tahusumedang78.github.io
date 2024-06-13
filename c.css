@@ -11,7 +11,7 @@
   justify-content: center;
   background-color: rgb(55, 54, 54);
 }
-.back-btn {
+.back-button {
   position: fixed; /* Mengatur posisi tetap agar tombol tetap pada tempatnya saat halaman digulir */
   top: 20px; /* Jarak dari atas */
   left: 20px; /* Jarak dari kiri */
