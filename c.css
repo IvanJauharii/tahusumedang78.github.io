@@ -1,0 +1,59 @@
+.bkgr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(55, 54, 54);
+  height: 100vh;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(55, 54, 54);
+}
+.back-button {
+  position: fixed; /* Mengatur posisi tetap agar tombol tetap pada tempatnya saat halaman digulir */
+  top: 20px; /* Jarak dari atas */
+  left: 20px; /* Jarak dari kiri */
+  padding: 10px 20px; /* Ruang di dalam tombol */
+  background-color: #ffbf00; /* Warna latar belakang tombol */
+  color: #000000; /* Warna teks */
+  border: none; /* Menghapus border */
+  border-radius: 10px; /* Mengatur sudut bulatan tombol */
+  text-decoration: none; /* Menghapus dekorasi tautan */
+  font-size: 20px; /* Ukuran font */
+  font-family: "Poppins", sans-serif; /* Menetapkan font Poppins */
+  font-weight: bold;
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+  z-index: 9999; /* Menetapkan z-index agar tombol muncul di atas elemen lain */
+}
+
+.back-button:hover {
+  background-color: #555; /* Warna latar belakang saat tombol dihover */
+}
+
+.title-ex {
+  margin: 20px;
+  text-align: center;
+  background-color: #ffaa00;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: auto;
+}
+
+.title-ex:hover {
+  transform: translateY(-5px);
+}
+
+.title-ex img {
+  border-radius: 10px;
+}
+
+.title-ex h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
